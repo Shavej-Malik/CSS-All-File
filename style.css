@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#car1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(88, 10, 244);
+}
+#car2{
+    position: absolute;/*Now this car (div) has moved up, and now we can apply left, right, top, bottom, and z-index to this div*/
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+}
+#car3{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(9, 242, 40);
+}
+/*Position Relative and Postion Absolute*/
+#parent{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    position: relative;/*now child div will take left,right,top,bottom position according to parent div*/
+}
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 50%;
+}
+/*Fixed and sticky*/
+#homepage{
+    height: 3000px;
+    width: 100%;
+    background-color: black;
+}
+#sidebar{
+    height: 400px;
+    width: 100px;
+    background-color: blanchedalmond;
+    position: fixed;/*Now this sidebar div fixed with respect to homepage div at one position and this will not scroll when website scrolling*/
+    right: 0;
+    top: 20%;
+}
+#webpage{
+    width: 100%;
+}
+#child1{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(116, 114, 114);
+}
+#child2{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(216, 161, 161);
+}   
+#sticky{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    position: sticky;
+    top: 0;
+}
