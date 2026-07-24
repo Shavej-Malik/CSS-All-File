@@ -64,12 +64,12 @@ html,body{
 #child2{
     height: 900px;
     width: 100%;
-    background-color: rgb(216, 161, 161);
+    background-color: rgb(231, 123, 123);
 }   
 #sticky{
     height: 50px;
     width: 50px;
     background-color: chartreuse;
     position: sticky;
-    top: 0;
+    top: 0px;
 }
