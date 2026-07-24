@@ -1,0 +1,38 @@
+@font-face {
+    font-family: font;
+    src: url(./Caitog\ Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/79/1c/d7/791cd775c7bcc7195cdb7f89d8da3f7b.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+}
+h1{
+    color: rgba(191, 214, 223, 0.984);
+    font-family: font;
+    font-size: 120px;
+    
+}
+button{
+    color: yellow;
+    padding: 5px 10px;
+    font-family: font;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px dashed white;
+    border-radius: 10px;
+    cursor: pointer;
+}
