@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    /* text-align: center; */
+}
+#main>h1{/*main ke andar jo direct h1 hai us pr apply ho*/
+    margin-top: 100px;
+    font-size: 200px;
+    font-weight: 100;
+    padding-left: 70px;
+}
+#nav{
+    padding: 10px 20px;
+    text-align: center;
+}
+#nav a{
+    margin: 50px;
+    text-decoration: none;
+}
+#leftbtm{
+    width: 300px;
+    position: absolute;
+    bottom: 10%;
+    /* background-color: aqua; */
+    left: 5%;
+}
+#leftbtm h3{
+    font-size: 30px;
+}
+#leftbtm p{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+#leftbtm h4{
+    font-size: 30px;
+    margin-top: 30px;
+}
+#btmbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 70px;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#btmbar a{
+    /* color: white; */
+    text-decoration: none;
+    font-weight: 900;
+}
+#main>img{
+    position: absolute;
+    height: 250px;
+    border-radius: 10px;
+}
+#first{
+    top: 40%;
+    left: 64%;
+}
+#second{
+    top: 35%;
+    left: 50%;
+}
+#third{
+    top: 45%;
+    left: 55%;
+}
