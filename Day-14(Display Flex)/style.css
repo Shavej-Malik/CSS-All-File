@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;/*Div divided into Rows and Colums*/
+    align-items: center;/*Manage on to Colums wise*/
+    /* justify-content: center;Manage on to Row wise */
+    /* justify-content: space-between;side space devides into between of div */
+    /* justify-content: space-around;space devided equaly around the div but from border space less then between two div space */
+    justify-content: space-evenly;/*Space devided equally all around div*/
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
