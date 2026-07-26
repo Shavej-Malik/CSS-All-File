@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    background-color: black;
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    z-index: 9;/*yellox box is behind green box Then z-index property show yellow box above the green box*/
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);/*this last line work to center any div,text,etc*/
+}
+#parent{
+    height:100% ;
+    width: 100%;
+    display: flex;/*This also shrinked the div when box present lot of*/
+    flex-wrap: nowrap;/*now dic will not shrinked show on next line*/
+    /* align-items: end;
+    justify-content: center;
+    flex-direction: row;By default set on x-axis 
+    flex-direction: column;Direction changed x-axis is y-axis and y-axis is x-axis */
+    overflow: auto;/*we can scroll in side */
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    flex-shrink: 0;/*Now first div will not shrink other div will shrink*/
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    flex-shrink: 0;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    flex-shrink: 0;
+}
