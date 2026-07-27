@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    perspective: 1000px;/*we are seeing website from 1000px far away*/
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    height: 600px;
+    width: 300px;
+    background-color: tan;
+    background-image: url(https://i.pinimg.com/736x/21/b3/90/21b390c7664168ae3a2fb0f0ad6f5e80.jpg);
+    background-size: cover;
+    background-position: top;
+    transform: translateX(50%);/*can give value in negative*/
+    transform: translateY(50%);/*can give value in negative*/
+    transform: rotate(50deg);/*can give value in negative*/
+    transform: rotateX(45deg);/*can give value in negative*/ /*we have to change perspective to see effect of x-axis and y-axis*/
+    transform: rotateY(50deg);/*can give value in negative*/
+    transform: scale(1)
+}
