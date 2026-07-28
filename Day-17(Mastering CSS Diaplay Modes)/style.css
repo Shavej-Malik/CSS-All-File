@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    background-color: black;
+}
+h1{
+    color: white;
+    background-color: tomato;
+    display: inline-block;/*take space as much as is need now all peoperty will work of transform*/
+}
+h2{
+    color: white;
+    /* background-color: tomato; */
+    display: inline-block;
+}
+/*2nd selection way in CSS and Display Grid*/
+.parent{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.box{
+    background-color: tomato;
+    border: 3px solid black;
+}
+/* .box:nth-child(2n){
+    background-color: tan;
+}
+.box:nth-child(3n){
+    background-color: green;
+}
+.box:nth-last-child(4n){
+    background-color: pink;
+} */
+/* .box:nth-last-child(1){last se pehlea box
+    border-bottom: 3px solid crimson;
+} */
+/* .box:nth-child(2n)/(2n-1){all box will be red multiple of 2
+    background-color: red;
+} */
+
+/* Background on text  */
+.text h4{
+    color: transparent;
+    font-size: 100px;
+    /* background: linear-gradient(red, yellow,green); */
+    /* background-image: url(https://i.pinimg.com/736x/b9/78/50/b97850a4460e7a80600a3e0eb6b1bc4d.jpg); */
+    background-image: url(https://31.media.tumblr.com/tumblr_macvul40zN1qzd880o1_400.gif);
+    background-size: cover;
+    background-position: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    background-clip:text/*set background on text. we can only set image or GIF*/
+}
+.text h3{
+    /* color: white; */
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px white;/*can take border on text*/
+}
