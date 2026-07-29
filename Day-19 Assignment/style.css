@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 1fr 25% 25%;
+    grid-template-rows: 70px 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "left-div right-up right-up"
+                         "left-div right-left right-right";
+    grid-gap: 5px;
+}
+header{
+    /* background-color: brown; */
+    grid-area: header;
+    padding: 15px;
+    display: flex;
+}
+
+#links{
+    
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+    /* color: white; */
+}
+#links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+#login-talk{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+#letstalk{
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#icon1{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#login{
+    /* display: flex;
+    gap: 30px;
+    align-items: center;
+    right: 5%;
+    top: 2%; */
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#left-div{
+    /* background-color: green; */
+    grid-area: left-div;
+    font-size: 50px;
+    padding: 20px;
+}
+#left-div h1{
+    color: transparent;
+    background-image: url(https://i.pinimg.com/1200x/80/5d/cd/805dcd42f483a341912e33241bf94f49.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-text-stroke:2px rgb(255, 0, 204);
+}
+#gif1{
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-image: url(https://i.pinimg.com/736x/88/28/e8/8828e8d17358096e059c023308c5a6ec.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#gif2{
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-image: url(https://i.pinimg.com/736x/ea/68/b8/ea68b83126e637a9b78b10f4332c5d7c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#contact{
+    width: fit-content;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+#contact h1{
+    color: white;
+    width: fit-content;
+    -webkit-text-stroke:0px ;
+    font-size: 30px;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#footer h1{
+    -webkit-text-stroke:0px ;
+    color: black;
+    font-size: 50px;
+}
+#right-up{
+    /* background-color: white; */
+    grid-area: right-up;
+    border-radius: 30px;
+    background-image: url(https://i.pinimg.com/1200x/50/84/e1/5084e129a631c3e8a49ce1539852bf2c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#right-left{
+    background-color: grey;
+    grid-area: right-left;
+    border-radius: 30px;
+    background-image: url(https://i.pinimg.com/1200x/87/67/5d/87675d16c3568334883cda8c14807f1c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#right-right{
+    background-color: aqua;
+    grid-area: right-right;
+    border-radius: 30px;
+    background-image: url(https://i.pinimg.com/1200x/4a/fc/ab/4afcab1f81120f8a96cde747a30cb29d.jpg);
+    background-size: cover;
+    background-position: center;
+}
