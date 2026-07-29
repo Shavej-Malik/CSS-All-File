@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#box{
+    height: 40vh;/*vh(viewport height) box take height w.r.t screen and automatically manage according to device screen*/
+    width: 40vw;/*vh(viewport width) box take width w.r.t screen and automatically manage according to device screen*/
+    background-color: royalblue;
+}
+#box1{
+    height: 30vw;/*Now heigth and width both will manage according to screen*/
+    width: 30vw;
+    background-color: pink;
+}
+h1{
+    font-size: 10vw;/*manage according to screen's width*/
+    color: white;
+}
+h2{
+    font-size: 10vmin;/*manage according to screen's width*/
+    color: white;
+}
+#parent{
+    background-color: white;
+    font-size: 40px;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1.2em;
+}
+p{
+    font-size: 2.5em;
+}
