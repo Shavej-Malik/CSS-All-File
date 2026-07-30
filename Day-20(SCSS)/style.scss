@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/*Mixin*/
+@mixin flexcenter(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*nesting*/
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    @include flexcenter();
+
+    section{
+        height: 200px;
+        width: 400px;
+        background-color: white;
+        @include flexcenter();
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            -webkit-text-stroke: 1px red;
+        }
+    }
+}
+@mixin button($bg-color){
+    padding: 10px 20px;
+    background-color: $bg-color;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;/*this is stop to take full width*/
+    cursor: pointer;
+    font-size: 20px;
+}
+.blue{
+    @include button(blue);
+}
+.red{
+    @include button(red);
+}
