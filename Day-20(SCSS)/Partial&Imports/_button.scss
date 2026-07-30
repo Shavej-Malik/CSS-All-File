@@ -1,0 +1,10 @@
+@mixin button($bg-color:blue, $text-color:white){/*default value is blue color*/
+    padding: 10px 20px;
+    background-color: $bg-color;
+    color: $text-color;
+    border-radius: 5px;
+    border: none;
+    outline: none;/*this is stop to take full width*/
+    cursor: pointer;
+    font-size: 20px;
+}
