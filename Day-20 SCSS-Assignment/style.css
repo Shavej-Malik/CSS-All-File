@@ -23,27 +23,27 @@ main section {
   cursor: pointer;
 }
 main section:nth-child(1) {
-  background-image: url(https://i.pinimg.com/736x/4f/6f/d1/4f6fd122e3f5b750959c0af202fdbfe4.jpg);
+  background-image: url(./Ronaldojpg.webp);
   background-size: cover;
   background-position: center;
 }
 main section:nth-child(2) {
-  background-image: url(https://i.pinimg.com/1200x/fc/5f/91/fc5f91650af0aed236e579c8d45a5bb4.jpg);
+  background-image: url(./Vijay_Thalapathy.webp);
   background-size: cover;
   background-position: center;
 }
 main section:nth-child(3) {
-  background-image: url(https://i.pinimg.com/736x/a1/53/dc/a153dc59b603896a2651c256a9f41a84.jpg);
+  background-image: url(./Google_CEO.webp);
   background-size: cover;
   background-position: center;
 }
 main section:nth-child(4) {
-  background-image: url(https://i.pinimg.com/736x/e2/82/20/e282200749f5092300c226acba942a35.jpg);
+  background-image: url(./SRK.webp);
   background-size: cover;
   background-position: center;
 }
 main section:nth-child(5) {
-  background-image: url(https://i.pinimg.com/1200x/13/2d/e7/132de739aae3268b38ea8f89847deded.jpg);
+  background-image: url(./Range_Rover.webp);
   background-size: cover;
   background-position: center;
 }
